@@ -1,5 +1,5 @@
 # Firebase Codelab: FriendlyChat
 
-Jordi Ugarte Yaffar:
+Proyecto de Codelab - Jordi Ugarte:
 
- - [Proyecto de Codelab](https://codelabs.developers.google.com/codelabs/firebase-android/)
+ - [Link al Codelab](https://codelabs.developers.google.com/codelabs/firebase-android/)
