@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.firebase.crashlytics'
+
 
 android {
     compileSdkVersion 30
     buildToolsVersion '30.0.0'
 
     defaultConfig {
-        applicationId "com.google.firebase.codelab.friendlychat"
+        applicationId "edu.upb.jordiugarte.codelab"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
@@ -45,6 +45,8 @@ dependencies {
 
     // Firebase UI
     implementation 'com.firebaseui:firebase-ui-database:6.3.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
 
     // Testing dependencies
     testImplementation 'junit:junit:4.13.1'
